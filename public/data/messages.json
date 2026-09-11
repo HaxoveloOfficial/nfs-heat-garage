@@ -1,0 +1,46 @@
+[
+  {
+    "id": "msg-101",
+    "senderName": "PalmCityRacer",
+    "senderTag": "@NightFox",
+    "carModel": "Porsche 911 Carrera RSR 2.8",
+    "message": "Hey Haxovelo! Which induction is faster on the 3.5L V6 for night street races? Roots Supercharger or Dual Turbo?",
+    "reply": "Dual Turbo gives you a higher top end for long highway stretches (like the Palm City Raceway interstate), but Roots Supercharger gives instant acceleration if police box you in. For pure lap times, go Dual Turbo!",
+    "isAnswered": true,
+    "createdAt": "2 hours ago",
+    "isPinned": true
+  },
+  {
+    "id": "msg-102",
+    "senderName": "TougeDrifter",
+    "senderTag": "@DriftApex",
+    "carModel": "Mazda RX-7 Spirit R",
+    "message": "What suspension and differential do you use to hit 150,000+ points on the mountain drift trials?",
+    "reply": "Speedcross Suspension + Showcase Tires + Speedcross Differential! Set steering sensitivity to +5 and downforce to -3. Initiates huge angle with zero snap oversteer.",
+    "isAnswered": true,
+    "createdAt": "6 hours ago",
+    "isPinned": true
+  },
+  {
+    "id": "msg-103",
+    "senderName": "KevSpeed",
+    "senderTag": "@Kev_Heat",
+    "carModel": "Nissan Skyline GT-R R34",
+    "message": "Can the R34 survive Heat 5 rhinos and Corvettes without losing all its health?",
+    "reply": "Yes, but make sure to equip the Damage Reduction passive auxiliary (+20% defense) and keep the Repair Kit active auxiliary for emergency health replenishes near Port Murphy gas stations!",
+    "isAnswered": true,
+    "createdAt": "1 day ago",
+    "isPinned": false
+  },
+  {
+    "id": "msg-104",
+    "senderName": "ViperFanatic",
+    "senderTag": "@SnakeEyes",
+    "carModel": "Dodge Viper SRT10",
+    "message": "Can you do a video on the best engine swap for the Viper to make it competitive with the RSR?",
+    "reply": null,
+    "isAnswered": false,
+    "createdAt": "3 hours ago",
+    "isPinned": false
+  }
+]
