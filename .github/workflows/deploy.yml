@@ -27,14 +27,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: Install Dependencies
         run: npm ci
 
       - name: Build Angular Project
-        run: npm run build -- --base-href /${{ github.event.repository.name }}/
+        run: npm run build -- --base-href /nfs-heat-garage/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
