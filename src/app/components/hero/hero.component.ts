@@ -81,9 +81,9 @@ import { CommonModule } from '@angular/common';
             <!-- Video / Showcase Card Banner -->
             <div class="mt-4 rounded-xl overflow-hidden border border-slate-800 relative aspect-video bg-slate-950 flex flex-col items-center justify-center text-center p-4">
               <img
-                src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80"
+                src="images/cars/skyline-r34.jpg"
                 alt="NFS Heat Car Showcase"
-                class="absolute inset-0 w-full h-full object-cover opacity-35 group-hover:scale-105 transition duration-700"
+                class="absolute inset-0 w-full h-full object-cover opacity-45 group-hover:scale-105 transition duration-700"
               />
               <div class="relative z-10 space-y-3">
                 <a

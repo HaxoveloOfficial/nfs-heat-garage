@@ -31,7 +31,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "The undisputed #1 car in NFS Heat. The 3.5L V6 engine swap gives it absurd corner exit acceleration that outclasses every modern hypercar. Keep traction control OFF and use gas tap to micro-drift around 90-degree corners.",
-    "imageUrl": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/porsche-rsr.jpg",
     "badgeGradient": "from-amber-500 via-orange-600 to-red-600"
   },
   {
@@ -66,7 +66,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "The AWD launch makes it a bullet off the starting line. Exceptional for night street racing because the AWD traction prevents spinning out when bumped by police Corvettes.",
-    "imageUrl": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/skyline-r34.jpg",
     "badgeGradient": "from-cyan-500 via-blue-600 to-indigo-600"
   },
   {
@@ -101,7 +101,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "Equipping Speedcross parts combined with Showcase tires gives you extreme angle control for racking up 3-star mountain drift trials without losing momentum. The Roots Supercharger gives instantaneous low-end wheelspin.",
-    "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/rx7-spirit.jpg",
     "badgeGradient": "from-pink-500 via-rose-600 to-red-500"
   },
   {
@@ -136,7 +136,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "One of the most planted cars in the game. High downforce setting makes high-speed sweepers on daytime tracks feel like you are on rails.",
-    "imageUrl": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/ford-gt.jpg",
     "badgeGradient": "from-purple-600 via-indigo-600 to-blue-600"
   },
   {
@@ -171,7 +171,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "Heavy chassis with massive hybrid torque. Its sheer weight makes it the best battering ram against police roadblocks at Heat 5.",
-    "imageUrl": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/polestar-1.jpg",
     "badgeGradient": "from-yellow-500 via-amber-500 to-yellow-600"
   },
   {
@@ -206,7 +206,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "The pinnacle of off-road racing in NFS Heat. With Rally suspension and Off-road tires, you maintain maximum speed through mud, grass, and quarry sand.",
-    "imageUrl": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/lancer-evo.jpg",
     "badgeGradient": "from-emerald-500 via-teal-600 to-cyan-600"
   },
   {
@@ -241,7 +241,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "Straight-cut gear whine and high-revving V8. Incredible mid-corner stability and high nostalgic street cred for Night time chases.",
-    "imageUrl": "https://images.unsplash.com/photo-1555353540-64580b51c258?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/bmw-m3-gtr.jpg",
     "badgeGradient": "from-blue-600 via-indigo-700 to-pink-600"
   },
   {
@@ -276,7 +276,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/@HaxoveloOfficial",
     "proTips": "Second only to the 911 RSR in track lap times. Light carbon chassis allows aggressive high-speed directional changes without dropping speed.",
-    "imageUrl": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1200&q=80",
+    "imageUrl": "images/cars/ferrari-f40.jpg",
     "badgeGradient": "from-red-600 via-rose-600 to-pink-600"
   }
 ]
