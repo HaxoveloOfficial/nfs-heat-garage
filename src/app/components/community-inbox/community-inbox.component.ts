@@ -23,18 +23,33 @@ import { CommunityService } from '../../services/community.service';
           </p>
         </div>
 
-        <!-- Creator Status Pill -->
-        <div class="flex items-center gap-2">
+        <!-- Creator Status Pill & Direct Login -->
+        <div class="flex flex-wrap items-center gap-2.5">
           @if (communityService.isAdmin()) {
-            <div class="px-3.5 py-1.5 rounded-xl bg-purple-900/50 border border-purple-500 text-purple-200 text-xs font-racing font-bold flex items-center gap-2 shadow-lg shadow-purple-900/30">
+            <div class="px-3.5 py-1.5 rounded-xl bg-purple-900/80 border border-purple-400 text-purple-200 text-xs font-racing font-bold flex items-center gap-2 shadow-lg shadow-purple-900/40">
               <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-              CREATOR REPLY MODE UNLOCKED
+              CREATOR REPLY MODE ACTIVE
             </div>
+            <button
+              (click)="communityService.logoutAdmin()"
+              class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition"
+            >
+              Lock
+            </button>
           } @else {
             <div class="px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-400 text-xs font-semibold flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-cyan-400"></span>
               {{ communityService.answeredQuestions() }} Answers Published
             </div>
+
+            <button
+              (click)="openAdminModal()"
+              class="px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-purple-800 via-indigo-800 to-purple-800 border border-purple-400/80 text-purple-100 hover:text-white hover:border-pink-400 text-xs font-racing font-bold tracking-wider hover:scale-105 transition flex items-center gap-2 shadow-lg shadow-purple-900/30"
+              title="Click to enter passkey (heat400) and unlock reply buttons"
+            >
+              <span>🛡️</span>
+              <span>CREATOR LOGIN</span>
+            </button>
           }
         </div>
       </div>
@@ -360,5 +375,9 @@ export class CommunityInboxComponent {
     this.communityService.replyToMessage(id, this.activeReplyText);
     this.activeComposerId = null;
     this.activeReplyText = '';
+  }
+
+  openAdminModal(): void {
+    window.dispatchEvent(new CustomEvent('open-admin-login'));
   }
 }

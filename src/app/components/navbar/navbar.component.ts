@@ -46,20 +46,20 @@ import { CommunityService } from '../../services/community.service';
         @if (communityService.isAdmin()) {
           <button
             (click)="communityService.logoutAdmin()"
-            class="px-3 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-purple-950/80 border border-purple-500 text-purple-200 hover:bg-purple-900 transition flex items-center gap-1.5 shadow-md shadow-purple-900/40"
+            class="px-3.5 py-1.5 rounded-xl text-xs font-racing font-bold uppercase tracking-wider bg-purple-900/90 border border-purple-400 text-purple-100 hover:bg-purple-800 transition flex items-center gap-2 shadow-lg shadow-purple-900/50"
             title="Click to lock admin mode"
           >
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>Creator Mode (Active)</span>
+            <span>CREATOR ACTIVE (LOCK)</span>
           </button>
         } @else {
           <button
             (click)="onOpenAdminLogin()"
-            class="px-3 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-slate-900/90 border border-slate-700 text-slate-300 hover:border-purple-500 hover:text-purple-300 transition flex items-center gap-1.5"
-            title="Creator PIN login to reply to questions"
+            class="px-3.5 py-1.5 rounded-xl text-xs font-racing font-bold uppercase tracking-wider bg-gradient-to-r from-purple-900 via-indigo-900 to-purple-900 border border-purple-400/80 text-purple-200 hover:text-white hover:border-pink-400 hover:scale-105 transition flex items-center gap-1.5 shadow-lg shadow-purple-950/60"
+            title="Creator PIN login to reply to questions (PIN: heat400)"
           >
             <span>🛡️</span>
-            <span class="hidden sm:inline">Creator Login</span>
+            <span>CREATOR LOGIN</span>
           </button>
         }
 

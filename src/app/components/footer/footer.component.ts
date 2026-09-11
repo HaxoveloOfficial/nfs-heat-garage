@@ -31,6 +31,11 @@ import { CommonModule } from '@angular/common';
             <li><a href="#garage" class="hover:text-cyan-400 transition">Car Garage (400+ Builds)</a></li>
             <li><a href="#community" class="hover:text-pink-400 transition">Ask Question & Viewer Requests</a></li>
             <li><a href="https://www.youtube.com/@HaxoveloOfficial" target="_blank" class="hover:text-red-400 transition">YouTube Channel Videos</a></li>
+            <li class="pt-1">
+              <button (click)="openAdminLogin()" class="text-purple-400 hover:text-purple-300 font-semibold transition flex items-center gap-1.5">
+                <span>🛡️</span> Creator Login (Reply Mode)
+              </button>
+            </li>
           </ul>
         </div>
 
@@ -52,4 +57,8 @@ import { CommonModule } from '@angular/common';
 })
 export class FooterComponent {
   public currentYear = new Date().getFullYear();
+
+  openAdminLogin(): void {
+    window.dispatchEvent(new CustomEvent('open-admin-login'));
+  }
 }
